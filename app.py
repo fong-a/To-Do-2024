@@ -30,7 +30,7 @@ def login():
         if user and check_password_hash(user.password, password):
             # Placeholder for successful login, which will be replaced later
             flash("Login successful!", "info")
-\
+
         else:
             # Placeholder for failed login
             flash("Invalid username or password", "danger")
